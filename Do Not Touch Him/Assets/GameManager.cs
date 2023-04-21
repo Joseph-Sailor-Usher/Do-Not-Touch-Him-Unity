@@ -6,6 +6,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public Camera camera;
+    public Light directionalLight;
     public UnityEvent mouseDown;
     public TextMeshProUGUI textMeshProUGUI;
 
@@ -20,5 +22,7 @@ public class GameManager : MonoBehaviour
     {
         textMeshProUGUI.text = "Oh, god. No. What have you done?";
         textMeshProUGUI.color = Color.red;
+        directionalLight.color = Color.red;
+        camera.clearFlags = CameraClearFlags.SolidColor;
     }
 }
