@@ -1,0 +1,45 @@
+{
+    "name": "Default_",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "1f3fa86d-d045-4661-b3c8-1bf879bfd929",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "bb85b935-1105-40aa-8c6e-4279e73c7637",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "553fb11f-a432-4291-9031-6d22900085c9",
+                    "path": "<Mouse>/press",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "79095817-47e8-4870-b5fd-5a3929ad5d31",
+                    "path": "<VirtualMouse>/press",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
